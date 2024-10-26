@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react';
 
 const Highlights = () => {
   const images = [
-    '../assets/images/dashboard.png',
-    '../assets/images/Revenue data 2011.png',
-    '../assets/images/Screenshot (17).png',
-    '../assets/images/Screenshot (23).png',
+    '/assets/images/dashboard.png',
+    '/assets/images/Revenue data 2011.png',
+    '/assets/images/Screenshot (17).png',
+    '/assets/images/Screenshot (23).png',
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
