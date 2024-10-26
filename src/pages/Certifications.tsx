@@ -13,7 +13,7 @@ const Certifications = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/src/assets/VICTOR KIPKURUI RESUME.pdf';
+    link.href = '/VICTOR KIPKURUI RESUME.pdf';
     link.setAttribute('download', 'filename.pdf');
     document.body.appendChild(link);
     link.click();
@@ -72,8 +72,7 @@ const Certifications = () => {
         <div className="flex items-center justify-center py-6">
           <button
             className="bg-blue-700 p-3 px-5 rounded-md text-white flex items-center space-x-2 hover:bg-blue-800 hover:scale-110 transform transition-transform duration-300 ease-in-out"
-            onClick={handleDownload}
-          >
+            onClick={handleDownload}>
             <span>Resume</span>
             <FaDownload />
           </button>
