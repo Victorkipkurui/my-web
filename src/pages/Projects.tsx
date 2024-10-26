@@ -21,9 +21,53 @@ const Projects = () => {
       description: 'Performed customer segmentation based on buying habits using K-Means Clustering.',
       tools: 'Python, Scikit-learn',
     },
+    {
+      title: 'Sales Data Analysis',
+      description: 'Analyzed monthly sales data using Python and presented findings in a Power BI dashboard.',
+      tools: 'Python, Pandas, Power BI',
+    },
+    {
+      title: 'Customer Segmentation Analysis',
+      description: 'Performed customer segmentation based on buying habits using K-Means Clustering.',
+      tools: 'Python, Scikit-learn',
+    },
+    {
+      title: 'Sales Data Analysis',
+      description: 'Analyzed monthly sales data using Python and presented findings in a Power BI dashboard.',
+      tools: 'Python, Pandas, Power BI',
+    },
+    {
+      title: 'Customer Segmentation Analysis',
+      description: 'Performed customer segmentation based on buying habits using K-Means Clustering.',
+      tools: 'Python, Scikit-learn',
+    },
   ];
 
   const webDevelopmentProjects: Project[] = [
+    {
+      title: 'Hospital Appointment Booking System',
+      description: 'A full-stack web application for booking hospital appointments using React and Django.',
+      link: 'https://victorkipkurui.github.io/Filianta/index.html',
+      tools: 'React, Django, Tailwind CSS',
+    },
+    {
+      title: 'Portfolio Website',
+      description: 'Developed a personal portfolio showcasing my projects and blogs.',
+      link: 'https://my-web-bice-one.vercel.app/',
+      tools: 'React, Tailwind CSS',
+    },
+    {
+      title: 'Hospital Appointment Booking System',
+      description: 'A full-stack web application for booking hospital appointments using React and Django.',
+      link: 'https://victorkipkurui.github.io/Filianta/index.html',
+      tools: 'React, Django, Tailwind CSS',
+    },
+    {
+      title: 'Portfolio Website',
+      description: 'Developed a personal portfolio showcasing my projects and blogs.',
+      link: 'https://victor-portfolio.com',
+      tools: 'React, Tailwind CSS',
+    },
     {
       title: 'Hospital Appointment Booking System',
       description: 'A full-stack web application for booking hospital appointments using React and Django.',
@@ -49,9 +93,51 @@ const Projects = () => {
       description: 'Scraped job listings and organized them into a structured database for analysis.',
       tools: 'Python, Scrapy',
     },
+    {
+      title: 'E-commerce Data Scraping',
+      description: 'Scraped product data from e-commerce websites using Python and BeautifulSoup.',
+      tools: 'Python, BeautifulSoup, Selenium',
+    },
+    {
+      title: 'Job Listing Scraper',
+      description: 'Scraped job listings and organized them into a structured database for analysis.',
+      tools: 'Python, Scrapy',
+    },
+    {
+      title: 'E-commerce Data Scraping',
+      description: 'Scraped product data from e-commerce websites using Python and BeautifulSoup.',
+      tools: 'Python, BeautifulSoup, Selenium',
+    },
+    {
+      title: 'Job Listing Scraper',
+      description: 'Scraped job listings and organized them into a structured database for analysis.',
+      tools: 'Python, Scrapy',
+    },
   ];
 
   const analysisDashboards: Project[] = [
+    {
+      title: 'Sales Performance Dashboard',
+      description: 'Interactive dashboard built with Power BI to track sales performance across regions.',
+      tools: 'Power BI',
+      link: 'https://powerbi-dashboard-link.com',
+    },
+    {
+      title: 'Customer Feedback Analysis',
+      description: 'Analyzed and visualized customer feedback using sentiment analysis techniques.',
+      tools: 'Python, NLTK, Power BI',
+    },
+    {
+      title: 'Sales Performance Dashboard',
+      description: 'Interactive dashboard built with Power BI to track sales performance across regions.',
+      tools: 'Power BI',
+      link: 'https://powerbi-dashboard-link.com',
+    },
+    {
+      title: 'Customer Feedback Analysis',
+      description: 'Analyzed and visualized customer feedback using sentiment analysis techniques.',
+      tools: 'Python, NLTK, Power BI',
+    },
     {
       title: 'Sales Performance Dashboard',
       description: 'Interactive dashboard built with Power BI to track sales performance across regions.',
