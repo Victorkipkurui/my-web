@@ -27,7 +27,7 @@ const Highlights = () => {
   }, [currentIndex]);
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto overflow-hidden py-16">
+    <div className="relative w-full max-w-4xl mx-auto overflow-hidden py-16 p-6">
       <div>
       <h1 className="text-center text-gray-900 text-3xl font-semibold my-6">HIGHLIGHTS</h1>
       </div>

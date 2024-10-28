@@ -45,7 +45,7 @@ const Certifications = () => {
   }, []);
 
   return (
-    <div ref={ref}>
+    <div ref={ref} className='p-6'>
       <div>
         <h1 className="text-center text-gray-900 text-2xl md:text-3xl lg:text-4xl font-semibold my-6">
           CERTIFICATIONS

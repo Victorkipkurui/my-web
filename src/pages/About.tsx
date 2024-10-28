@@ -4,7 +4,7 @@ const About = () => {
 
   return (
     <>
-      <div>
+      <div className="px-6">
         <div className="relative p-6 border-4 rounded-lg border-gray-300 bg-gradient-to-r from-purple-500 to-pink-500">
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h1 className="text-center text-gray-900 text-3xl font-semibold mb-6">SKILLS</h1>
