@@ -169,32 +169,33 @@ const Projects = () => {
         <p className="text-lg text-gray-600">Explore the work I have done in various areas like data analysis, web development, web scraping, and more.</p>
       </div>
 
-      <div className="flex justify-center space-x-4 mb-8">
-        <button
-          className={`px-4 py-2 rounded ${selectedCategory === 'dataAnalysis' ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-          onClick={() => handleCategoryChange('dataAnalysis')}
-        >
-          Data Analysis
-        </button>
-        <button
-          className={`px-4 py-2 rounded ${selectedCategory === 'webDevelopment' ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-          onClick={() => handleCategoryChange('webDevelopment')}
-        >
-          Web Development
-        </button>
-        <button
-          className={`px-4 py-2 rounded ${selectedCategory === 'webScraping' ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-          onClick={() => handleCategoryChange('webScraping')}
-        >
-          Web Scraping
-        </button>
-        <button
-          className={`px-4 py-2 rounded ${selectedCategory === 'analysisDashboards' ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-          onClick={() => handleCategoryChange('analysisDashboards')}
-        >
-          Analysis Dashboards
-        </button>
-      </div>
+      <div className="mb-8 grid grid-cols-2 gap-4 sm:flex sm:justify-center sm:space-x-4">
+  <button
+    className={`px-4 py-2 rounded ${selectedCategory === 'dataAnalysis' ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
+    onClick={() => handleCategoryChange('dataAnalysis')}
+  >
+    Data Analysis
+  </button>
+  <button
+    className={`px-4 py-2 rounded ${selectedCategory === 'webDevelopment' ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
+    onClick={() => handleCategoryChange('webDevelopment')}
+  >
+    Web Development
+  </button>
+  <button
+    className={`px-4 py-2 rounded ${selectedCategory === 'webScraping' ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
+    onClick={() => handleCategoryChange('webScraping')}
+  >
+    Web Scraping
+  </button>
+  <button
+    className={`px-4 py-2 rounded ${selectedCategory === 'analysisDashboards' ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
+    onClick={() => handleCategoryChange('analysisDashboards')}
+  >
+    Analysis Dashboards
+  </button>
+</div>
+
 
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 justify-center">
         {categories[selectedCategory].map((project, index) => (
