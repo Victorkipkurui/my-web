@@ -22,7 +22,7 @@ const Tools = () => {
           <h2 className="text-center text-gray-900 text-2xl md:text-3xl font-semibold mb-6">Tools I work with</h2>
         </div>
         {/* Responsive Grid Layout for Icons */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center mx-auto my-10 max-w-screen-lg px-6">
+        <div className="grid grid-cols-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center mx-auto my-10 max-w-screen-lg px-6">
           <img src={js} alt="JavaScript" className="h-12 w-12 md:h-16 md:w-16" />
           <img src={Typescript} alt="JavaScript" className="h-12 w-12 md:h-16 md:w-16" />
           <img src={react} alt="React" className="h-12 w-12 md:h-16 md:w-16" />
