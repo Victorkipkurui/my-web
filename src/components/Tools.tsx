@@ -13,8 +13,8 @@ import Numpy from '../assets/images/NumPy.png'
 import Selenium from '../assets/images/Selenium.png'
 import Tailwind from '../assets/images/Tailwind CSS.png'
 import Typescript from '../assets/images/typescript.png'
+import Next from '../assets/images/next.png'
 const Tools = () => {
-
   return (
     <div>
       <div>
@@ -27,6 +27,7 @@ const Tools = () => {
           <img src={Typescript} alt="JavaScript" className="h-12 w-12 md:h-16 md:w-16" />
           <img src={react} alt="React" className="h-12 w-12 md:h-16 md:w-16" />
           <img src={Tailwind} alt="Tailwind CSS" className="h-12 w-12 md:h-16 md:w-16" />
+          <img src={Next} alt="Tailwind CSS" className="h-12 w-12 md:h-16 md:w-16" />
           <img src={node} alt="Node.js" className="h-12 w-12 md:h-16 md:w-16" />
           <img src={Express} alt="Express.js" className="h-12 w-12 md:h-16 md:w-16" />
           <img src={mongodb} alt="MongoDB" className="h-12 w-12 md:h-16 md:w-16" />
