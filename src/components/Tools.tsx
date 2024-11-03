@@ -13,7 +13,7 @@ import Numpy from '../assets/images/NumPy.png'
 import Selenium from '../assets/images/Selenium.png'
 import Tailwind from '../assets/images/Tailwind CSS.png'
 import Typescript from '../assets/images/typescript.png'
-import Next from '../assets/images/next.png'
+import Next from '../assets/images/Next.js.png'
 const Tools = () => {
   return (
     <div>
