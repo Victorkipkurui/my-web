@@ -12,7 +12,7 @@ import Projects from './pages/Projects';
 import Certifications from './pages/Certifications';
 import Contacts from './pages/Contacts';
 import About from './pages/About';
-import Shop from './pages/shop';
+import Shop from './pages/Shop';
 
 const router = createBrowserRouter([
   {
