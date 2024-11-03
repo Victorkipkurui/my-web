@@ -13,6 +13,7 @@ const Navbar = () => {
     {path:'/projects', link:"Projects"},
     {path:'/certifications', link:"Certifications"},
     {path:'/blog', link:"Blog"},
+    {path:'/shop', link:"Shop"},
     {path:'/contacts', link:"Contacts"}
   ]
 
