@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { FaBars, FaXmark} from "react-icons/fa6";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 
 const Navbar = () => {
   const [isMenuon, setIsmenuon] = useState(false);
@@ -31,6 +32,14 @@ const Navbar = () => {
             <NavLink to={path}>{link}</NavLink>
           </li>)
         }
+        <li className='text-gray-700 font-semibold hover:px-3 hover:text-blue-800 rounded'>
+        <SignedOut>
+         <SignInButton />
+        </SignedOut>
+        <SignedIn>
+         <UserButton />
+        </SignedIn>
+        </li>
       </ul>
       <div className='md:hidden'>
         <button onClick={toggleMenu} className='cursor-pointer'>
