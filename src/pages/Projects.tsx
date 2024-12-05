@@ -45,10 +45,10 @@ const Projects = () => {
 
   const webDevelopmentProjects: Project[] = [
     {
-      title: 'Hospital Appointment Booking System',
-      description: 'A full-stack web application for booking hospital appointments using React and Django.',
-      link: 'https://victorkipkurui.github.io/Filianta/index.html',
-      tools: 'React, Django, Tailwind CSS',
+      title: 'Ecommerce Website',
+      description: 'A full-stack ecommerce website with payment integrated.',
+      link: 'https://shopright.vercel.app/',
+      tools: 'React, NextJs, Tailwind CSS, Prisma',
     },
     {
       title: 'Portfolio Website',
@@ -58,12 +58,12 @@ const Projects = () => {
     },
     {
       title: 'Hospital Appointment Booking System',
-      description: 'A full-stack web application for booking hospital appointments using React and Django.',
+      description: 'A full-stack web application for booking hospital appointments using NextJS.',
       link: 'https://victorkipkurui.github.io/Filianta/index.html',
-      tools: 'React, Django, Tailwind CSS',
+      tools: 'React, NextJs, Tailwind CSS, Postgres',
     },
     {
-      title: 'Portfolio Website',
+      title: 'Blog Website',
       description: 'Developed a personal portfolio showcasing my projects and blogs.',
       link: 'https://victor-portfolio.com',
       tools: 'React, Tailwind CSS',
