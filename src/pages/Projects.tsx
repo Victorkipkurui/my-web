@@ -59,7 +59,7 @@ const Projects = () => {
     {
       title: 'Construction Company',
       description: 'A full-stack web application for a Construction Company.',
-      link: 'https://victorkipkurui.github.io/Filianta/index.html',
+      link: 'https://ranphil.vercel.app/',
       tools: 'React, NextJs, Tailwind CSS, Motion',
     },
     {
