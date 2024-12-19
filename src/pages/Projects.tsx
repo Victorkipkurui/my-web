@@ -57,10 +57,10 @@ const Projects = () => {
       tools: 'React, Tailwind CSS',
     },
     {
-      title: 'Hospital Appointment Booking System',
-      description: 'A full-stack web application for booking hospital appointments using NextJS.',
+      title: 'Construction Company',
+      description: 'A full-stack web application for a Construction Company.',
       link: 'https://victorkipkurui.github.io/Filianta/index.html',
-      tools: 'React, NextJs, Tailwind CSS, Postgres',
+      tools: 'React, NextJs, Tailwind CSS, Motion',
     },
     {
       title: 'Blog Website',
