@@ -14,6 +14,7 @@ import Selenium from '../assets/images/Selenium.png'
 import Tailwind from '../assets/images/Tailwind CSS.png'
 import Typescript from '../assets/images/typescript.png'
 import Next from '../assets/images/Next.js.png'
+import Nest from '.'
 const Tools = () => {
   return (
     <div>
@@ -39,6 +40,7 @@ const Tools = () => {
           <img src={django} alt="Django" className="h-12 w-12 md:h-16 md:w-16" />
           <img src={jupyter} alt="Jupyter" className="h-12 w-12 md:h-16 md:w-16" />
           <img src={Selenium} alt="Selenium" className="h-12 w-12 md:h-16 md:w-16" />
+         
         </div>
       </div>
     </div>
