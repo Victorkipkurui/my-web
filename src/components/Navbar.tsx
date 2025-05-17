@@ -17,7 +17,7 @@ const Navbar = () => {
   ]
 
   return (
-   <header className='text-white top-0 right-0 left-0'>
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow">
 
     {/*large devices*/}
     <nav className='px-4 py-4 max-w-7xl mx-auto flex justify-between items-center'>

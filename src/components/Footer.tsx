@@ -89,7 +89,7 @@ const Footer = () => {
           <div className="text-gray-700 space-y-3">
             <div>
               <h3 className="font-semibold">Address</h3>
-              <p>Sultan House, Kamiti Road. Roysambu-Nairobi</p>
+              <p>TransNational Plaza 2nd Floor</p>
             </div>
             <div>
               <h3 className="font-semibold">Email</h3>

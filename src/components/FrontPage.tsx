@@ -3,7 +3,7 @@ import myphoto from '../assets/images/My Photo.jpg'
 const FrontPage = () => {
 
   return (   
-<div className='flex justify-center items-center my-10 mx-auto max-w-screen-xl w-full px-4 sm:space-x-4 space-y-4 sm:space-y-0 flex-col lg:flex-row lg:space-y-0 lg:space-x-4'>
+<div className='flex justify-center items-center mt-20 my-10 mx-auto max-w-screen-xl w-full px-4 sm:space-x-4 space-y-4 sm:space-y-0 flex-col lg:flex-row lg:space-y-0 lg:space-x-4'>
   <div className='relative overflow-hidden w-auto pr-4 hover:scale-110 transform transition-transform duration-300'>
     <img
       src={myphoto}

@@ -63,55 +63,22 @@ const Projects = () => {
       tools: 'React, NextJs, Tailwind CSS, Motion',
     },
     {
-      title: 'Blog Website',
-      description: 'Developed a personal portfolio showcasing my projects and blogs.',
-      link: 'https://victor-portfolio.com',
-      tools: 'React, Tailwind CSS',
+      title: 'Loan Website',
+      description: 'This is a loan website that allows users to apply for loans online.',
+      link: 'https://www.sasaloans.site/',
+      tools: 'React, Tailwind CSS, Paystack',
     },
     {
       title: 'Hospital Appointment Booking System',
       description: 'A full-stack web application for booking hospital appointments using React and Django.',
-      link: 'https://victorkipkurui.github.io/Filianta/index.html',
+      link: 'https://my-web-bice-one.vercel.app/',
       tools: 'React, Django, Tailwind CSS',
     },
     {
       title: 'Portfolio Website',
       description: 'Developed a personal portfolio showcasing my projects and blogs.',
-      link: 'https://victor-portfolio.com',
+      link: 'https://my-web-bice-one.vercel.app/',
       tools: 'React, Tailwind CSS',
-    },
-  ];
-
-  const webScrapingProjects: Project[] = [
-    {
-      title: 'E-commerce Data Scraping',
-      description: 'Scraped product data from e-commerce websites using Python and BeautifulSoup.',
-      tools: 'Python, BeautifulSoup, Selenium',
-    },
-    {
-      title: 'Job Listing Scraper',
-      description: 'Scraped job listings and organized them into a structured database for analysis.',
-      tools: 'Python, Scrapy',
-    },
-    {
-      title: 'E-commerce Data Scraping',
-      description: 'Scraped product data from e-commerce websites using Python and BeautifulSoup.',
-      tools: 'Python, BeautifulSoup, Selenium',
-    },
-    {
-      title: 'Job Listing Scraper',
-      description: 'Scraped job listings and organized them into a structured database for analysis.',
-      tools: 'Python, Scrapy',
-    },
-    {
-      title: 'E-commerce Data Scraping',
-      description: 'Scraped product data from e-commerce websites using Python and BeautifulSoup.',
-      tools: 'Python, BeautifulSoup, Selenium',
-    },
-    {
-      title: 'Job Listing Scraper',
-      description: 'Scraped job listings and organized them into a structured database for analysis.',
-      tools: 'Python, Scrapy',
     },
   ];
 
@@ -154,7 +121,6 @@ const Projects = () => {
   const categories: { [key: string]: Project[] } = {
     dataAnalysis: dataAnalysisProjects,
     webDevelopment: webDevelopmentProjects,
-    webScraping: webScrapingProjects,
     analysisDashboards: analysisDashboards,
   };
 
@@ -181,12 +147,6 @@ const Projects = () => {
     onClick={() => handleCategoryChange('webDevelopment')}
   >
     Web Development
-  </button>
-  <button
-    className={`px-4 py-2 rounded ${selectedCategory === 'webScraping' ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-    onClick={() => handleCategoryChange('webScraping')}
-  >
-    Web Scraping
   </button>
   <button
     className={`px-4 py-2 rounded ${selectedCategory === 'analysisDashboards' ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}

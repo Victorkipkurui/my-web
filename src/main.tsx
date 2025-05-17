@@ -12,6 +12,7 @@ import Projects from './pages/Projects';
 import Certifications from './pages/Certifications';
 import Contacts from './pages/Contacts';
 import About from './pages/About';
+import NotFound from './pages/not-found';
 
 const router = createBrowserRouter([
   {
@@ -35,7 +36,8 @@ const router = createBrowserRouter([
     },{
       path: '/skills',
       element: <About/>
-    }]
+    },{ path: '*', 
+      element: <NotFound /> }]
   },
 ]);
 
